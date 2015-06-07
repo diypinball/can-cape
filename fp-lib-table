@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Beaglebone)(type Legacy)(uri ${KIPRJMOD}/beagleboard.mod)(options "")(descr ""))
+  (lib (name open-project)(type Legacy)(uri ${KIPRJMOD}/open-project.mod)(options "")(descr ""))
+  (lib (name minifit)(type Github)(uri https://github.com/RomaVis/connect-minifit.pretty)(options "")(descr ""))
+)

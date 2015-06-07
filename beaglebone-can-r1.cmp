@@ -1,0 +1,269 @@
+Cmp-Mod V01 Created by Cvpcb (2014-10-27 BZR 5228)-product   date = 6/5/2015 1:18:43 PM
+
+BeginCmp
+TimeStamp = /54586A3B;
+Reference = A0;
+ValeurCmp = JUMPER;
+IdModule  = open-project:S_JUMPER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458693C;
+Reference = A1;
+ValeurCmp = JUMPER;
+IdModule  = open-project:S_JUMPER_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /545871EE;
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586E51;
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54587CAC;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E554;
+Reference = C4;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E570;
+Reference = C5;
+ValeurCmp = 10n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E5C4;
+Reference = C6;
+ValeurCmp = 22u;
+IdModule  = Capacitors_SMD:c_elec_5x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E5CB;
+Reference = C7;
+ValeurCmp = 22u;
+IdModule  = Capacitors_SMD:c_elec_5x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E5B0;
+Reference = C8;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:c_elec_5x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E5B7;
+Reference = C9;
+ValeurCmp = 10u;
+IdModule  = Capacitors_SMD:c_elec_5x5.8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E54D;
+Reference = C10;
+ValeurCmp = NP;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E53F;
+Reference = C11;
+ValeurCmp = 3.3n;
+IdModule  = Capacitors_SMD:C_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5572000B;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55720012;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55720019;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55720C63;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = PinballParts:FC203-20MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E57F;
+Reference = L1;
+ValeurCmp = 4.7u;
+IdModule  = Inductors:SELF-WE-PD-XXL;
+EndCmp
+
+BeginCmp
+TimeStamp = /545985E9;
+Reference = P1;
+ValeurCmp = BEAGLEBONE_BLACK;
+IdModule  = Beaglebone:BEAGLEBONE_BLACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571B7CB;
+Reference = P2;
+ValeurCmp = PINBALL-CONNECTOR;
+IdModule  = PinballParts:PINBALL-CONNECTOR-V;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571B824;
+Reference = P3;
+ValeurCmp = PINBALL-CONNECTOR;
+IdModule  = PinballParts:PINBALL-CONNECTOR-V;
+EndCmp
+
+BeginCmp
+TimeStamp = /545860A0;
+Reference = R1;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586087;
+Reference = R2;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5458606E;
+Reference = R3;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54585F9E;
+Reference = R4;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586055;
+Reference = R5;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586641;
+Reference = R6;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E538;
+Reference = R7;
+ValeurCmp = 10K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E546;
+Reference = R8;
+ValeurCmp = 13K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E587;
+Reference = R9;
+ValeurCmp = 11.8K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E58E;
+Reference = R10;
+ValeurCmp = 53.6K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571FFF6;
+Reference = R11;
+ValeurCmp = 4.7K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571FFFD;
+Reference = R12;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55720004;
+Reference = R13;
+ValeurCmp = 1K;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586787;
+Reference = U1;
+ValeurCmp = MCP2562;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54585577;
+Reference = U2;
+ValeurCmp = 24C256;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5571E527;
+Reference = U3;
+ValeurCmp = AP3513E;
+IdModule  = Housings_SOIC:SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54586C48;
+Reference = WP1;
+ValeurCmp = JUMPER;
+IdModule  = open-project:S_JUMPER_2;
+EndCmp
+
+EndListe
