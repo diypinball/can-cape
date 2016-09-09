@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:beaglebone-can-r1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -61,7 +61,7 @@ F 3 "" H 8600 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L GND-RESCUE-beaglebone-can-r1 #PWR01
 U 1 1 5458579E
 P 1400 4200
 F 0 "#PWR01" H 1400 4200 30  0001 C CNN
@@ -72,7 +72,7 @@ F 3 "" H 1400 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L GND-RESCUE-beaglebone-can-r1 #PWR02
 U 1 1 545857B2
 P 2400 4200
 F 0 "#PWR02" H 2400 4200 30  0001 C CNN
@@ -83,7 +83,7 @@ F 3 "" H 2400 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L GND-RESCUE-beaglebone-can-r1 #PWR03
 U 1 1 545857C6
 P 3400 4200
 F 0 "#PWR03" H 3400 4200 30  0001 C CNN
@@ -94,7 +94,7 @@ F 3 "" H 3400 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L GND-RESCUE-beaglebone-can-r1 #PWR04
 U 1 1 545857DA
 P 4400 4200
 F 0 "#PWR04" H 4400 4200 30  0001 C CNN
@@ -133,7 +133,7 @@ Wire Wire Line
 	2300 4100 2400 4100
 Connection ~ 2400 4100
 $Comp
-L +3.3V #PWR05
+L +3.3V-RESCUE-beaglebone-can-r1 #PWR05
 U 1 1 54585853
 P 2500 1800
 F 0 "#PWR05" H 2500 1760 30  0001 C CNN
@@ -144,7 +144,7 @@ F 3 "" H 2500 1800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR06
+L +3.3V-RESCUE-beaglebone-can-r1 #PWR06
 U 1 1 54585867
 P 1300 1800
 F 0 "#PWR06" H 1300 1760 30  0001 C CNN
@@ -209,7 +209,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 3100 2500 3100
 $Comp
-L R R4
+L R-RESCUE-beaglebone-can-r1 R4
 U 1 1 54585F9E
 P 9500 4350
 F 0 "R4" V 9580 4350 40  0000 C CNN
@@ -220,7 +220,7 @@ F 3 "" H 9500 4350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-beaglebone-can-r1 R5
 U 1 1 54586055
 P 9700 4350
 F 0 "R5" V 9780 4350 40  0000 C CNN
@@ -231,7 +231,7 @@ F 3 "" H 9700 4350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L R-RESCUE-beaglebone-can-r1 R3
 U 1 1 5458606E
 P 7700 4350
 F 0 "R3" V 7780 4350 40  0000 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 7700 4350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L R-RESCUE-beaglebone-can-r1 R2
 U 1 1 54586087
 P 7500 4350
 F 0 "R2" V 7580 4350 40  0000 C CNN
@@ -253,7 +253,7 @@ F 3 "" H 7500 4350 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L R-RESCUE-beaglebone-can-r1 R1
 U 1 1 545860A0
 P 7300 4350
 F 0 "R1" V 7380 4350 40  0000 C CNN
@@ -308,7 +308,7 @@ Wire Wire Line
 	7500 4100 7500 4000
 Connection ~ 7500 4000
 $Comp
-L R R6
+L R-RESCUE-beaglebone-can-r1 R6
 U 1 1 54586641
 P 9900 5450
 F 0 "R6" V 9980 5450 40  0000 C CNN
@@ -329,7 +329,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 5400 8600 5900
 $Comp
-L GND #PWR09
+L GND-RESCUE-beaglebone-can-r1 #PWR09
 U 1 1 545867AA
 P 8600 5900
 F 0 "#PWR09" H 8600 5900 30  0001 C CNN
@@ -341,7 +341,7 @@ F 3 "" H 8600 5900 60  0000 C CNN
 $EndComp
 Connection ~ 8600 5800
 $Comp
-L +3.3V #PWR010
+L +3.3V-RESCUE-beaglebone-can-r1 #PWR010
 U 1 1 545868E3
 P 7300 3900
 F 0 "#PWR010" H 7300 3860 30  0001 C CNN
@@ -399,7 +399,7 @@ Wire Wire Line
 	9900 4000 9900 4100
 Connection ~ 9700 4000
 $Comp
-L C C3
+L C-RESCUE-beaglebone-can-r1 C3
 U 1 1 54587CAC
 P 7100 4900
 F 0 "C3" H 7100 5000 40  0000 L CNN
@@ -426,7 +426,7 @@ F 3 "" H 8650 2550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L GND-RESCUE-beaglebone-can-r1 #PWR011
 U 1 1 5458695B
 P 8000 2750
 F 0 "#PWR011" H 8000 2750 30  0001 C CNN
@@ -448,7 +448,7 @@ F 3 "" H 7900 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR013
+L +3.3V-RESCUE-beaglebone-can-r1 #PWR013
 U 1 1 54586983
 P 9200 2250
 F 0 "#PWR013" H 9200 2210 30  0001 C CNN
@@ -487,7 +487,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2450 9100 2450
 $Comp
-L C C2
+L C-RESCUE-beaglebone-can-r1 C2
 U 1 1 54586E51
 P 7200 2500
 F 0 "C2" H 7200 2600 40  0000 L CNN
@@ -498,7 +498,7 @@ F 3 "" H 7200 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-beaglebone-can-r1 C1
 U 1 1 545871EE
 P 6900 2500
 F 0 "C1" H 6900 2600 40  0000 L CNN
@@ -509,7 +509,7 @@ F 3 "" H 6900 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR014
+L GND-RESCUE-beaglebone-can-r1 #PWR014
 U 1 1 5458721A
 P 6900 2750
 F 0 "#PWR014" H 6900 2750 30  0001 C CNN
@@ -520,7 +520,7 @@ F 3 "" H 6900 2750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L GND-RESCUE-beaglebone-can-r1 #PWR015
 U 1 1 54587235
 P 7200 2750
 F 0 "#PWR015" H 7200 2750 30  0001 C CNN
@@ -542,7 +542,7 @@ F 3 "" H 6900 2250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR017
+L +3.3V-RESCUE-beaglebone-can-r1 #PWR017
 U 1 1 5458738B
 P 7200 2250
 F 0 "#PWR017" H 7200 2210 30  0001 C CNN
@@ -667,7 +667,7 @@ Wire Wire Line
 	1500 5850 1600 5850
 Connection ~ 1600 5850
 $Comp
-L GND #PWR018
+L GND-RESCUE-beaglebone-can-r1 #PWR018
 U 1 1 5571C3FE
 P 1600 7900
 F 0 "#PWR018" H 1600 7900 30  0001 C CNN
@@ -704,7 +704,7 @@ F 3 "" H 7250 1400 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND-RESCUE-beaglebone-can-r1 #PWR020
 U 1 1 5571E52E
 P 7950 1700
 F 0 "#PWR020" H 7950 1700 30  0001 C CNN
@@ -722,7 +722,7 @@ Wire Wire Line
 	7850 1600 7950 1600
 Connection ~ 7950 1600
 $Comp
-L R R7
+L R-RESCUE-beaglebone-can-r1 R7
 U 1 1 5571E538
 P 7250 1000
 F 0 "R7" V 7330 1000 40  0000 C CNN
@@ -733,7 +733,7 @@ F 3 "" H 7250 1000 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C11
+L C-RESCUE-beaglebone-can-r1 C11
 U 1 1 5571E53F
 P 6250 1600
 F 0 "C11" H 6250 1700 40  0000 L CNN
@@ -744,7 +744,7 @@ F 3 "" H 6250 1600 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-beaglebone-can-r1 R8
 U 1 1 5571E546
 P 5700 1600
 F 0 "R8" V 5780 1600 40  0000 C CNN
@@ -755,7 +755,7 @@ F 3 "" H 5700 1600 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L C C10
+L C-RESCUE-beaglebone-can-r1 C10
 U 1 1 5571E54D
 P 6000 1450
 F 0 "C10" H 6000 1550 40  0000 L CNN
@@ -766,7 +766,7 @@ F 3 "" H 6000 1450 60  0000 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L C C4
+L C-RESCUE-beaglebone-can-r1 C4
 U 1 1 5571E554
 P 6000 1200
 F 0 "C4" H 6000 1300 40  0000 L CNN
@@ -794,7 +794,7 @@ Connection ~ 6500 1500
 Wire Wire Line
 	6050 1600 5950 1600
 $Comp
-L GND #PWR021
+L GND-RESCUE-beaglebone-can-r1 #PWR021
 U 1 1 5571E564
 P 5350 1900
 F 0 "#PWR021" H 5350 1900 30  0001 C CNN
@@ -815,7 +815,7 @@ Wire Wire Line
 	5450 1600 5350 1600
 Connection ~ 5350 1600
 $Comp
-L C C5
+L C-RESCUE-beaglebone-can-r1 C5
 U 1 1 5571E570
 P 8250 1200
 F 0 "C5" H 8250 1300 40  0000 L CNN
@@ -854,7 +854,7 @@ F 3 "" H 8950 1400 60  0000 C CNN
 $EndComp
 Connection ~ 8550 1400
 $Comp
-L R R9
+L R-RESCUE-beaglebone-can-r1 R9
 U 1 1 5571E587
 P 5700 1800
 F 0 "R9" V 5780 1800 40  0000 C CNN
@@ -865,7 +865,7 @@ F 3 "" H 5700 1800 30  0000 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-beaglebone-can-r1 R10
 U 1 1 5571E58E
 P 6400 1800
 F 0 "R10" V 6480 1800 40  0000 C CNN
@@ -924,7 +924,7 @@ Wire Wire Line
 	4850 900  7950 900 
 Connection ~ 7950 1000
 $Comp
-L CP C8
+L CP-RESCUE-beaglebone-can-r1 C8
 U 1 1 5571E5B0
 P 4850 1400
 F 0 "C8" H 4900 1500 40  0000 L CNN
@@ -935,7 +935,7 @@ F 3 "" H 4850 1400 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C9
+L CP-RESCUE-beaglebone-can-r1 C9
 U 1 1 5571E5B7
 P 5150 1400
 F 0 "C9" H 5200 1500 40  0000 L CNN
@@ -955,7 +955,7 @@ Wire Wire Line
 	5150 1200 5150 900 
 Connection ~ 5150 900 
 $Comp
-L CP C6
+L CP-RESCUE-beaglebone-can-r1 C6
 U 1 1 5571E5C4
 P 9500 1300
 F 0 "C6" H 9550 1400 40  0000 L CNN
@@ -966,7 +966,7 @@ F 3 "" H 9500 1300 300 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C7
+L CP-RESCUE-beaglebone-can-r1 C7
 U 1 1 5571E5CB
 P 9750 1300
 F 0 "C7" H 9800 1400 40  0000 L CNN
@@ -991,7 +991,7 @@ Wire Wire Line
 	9500 1100 9500 1000
 Connection ~ 9500 1000
 $Comp
-L GND #PWR024
+L GND-RESCUE-beaglebone-can-r1 #PWR024
 U 1 1 5571E5DA
 P 9500 1700
 F 0 "#PWR024" H 9500 1700 30  0001 C CNN
@@ -1003,7 +1003,7 @@ F 3 "" H 9500 1700 60  0000 C CNN
 $EndComp
 Connection ~ 9500 1600
 $Comp
-L R R11
+L R-RESCUE-beaglebone-can-r1 R11
 U 1 1 5571FFF6
 P 5350 6700
 F 0 "R11" V 5430 6700 40  0000 C CNN
@@ -1014,7 +1014,7 @@ F 3 "" H 5350 6700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L R-RESCUE-beaglebone-can-r1 R12
 U 1 1 5571FFFD
 P 5650 6700
 F 0 "R12" V 5730 6700 40  0000 C CNN
@@ -1025,7 +1025,7 @@ F 3 "" H 5650 6700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-beaglebone-can-r1 R13
 U 1 1 55720004
 P 5950 6700
 F 0 "R13" V 6030 6700 40  0000 C CNN
@@ -1036,40 +1036,7 @@ F 3 "" H 5950 6700 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
-U 1 1 5572000B
-P 5350 7350
-F 0 "D1" H 5350 7450 50  0000 C CNN
-F 1 "LED" H 5350 7250 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 5350 7350 60  0001 C CNN
-F 3 "" H 5350 7350 60  0000 C CNN
-	1    5350 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D2
-U 1 1 55720012
-P 5650 7350
-F 0 "D2" H 5650 7450 50  0000 C CNN
-F 1 "LED" H 5650 7250 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 5650 7350 60  0001 C CNN
-F 3 "" H 5650 7350 60  0000 C CNN
-	1    5650 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D3
-U 1 1 55720019
-P 5950 7350
-F 0 "D3" H 5950 7450 50  0000 C CNN
-F 1 "LED" H 5950 7250 50  0000 C CNN
-F 2 "LEDs:LED-0603" H 5950 7350 60  0001 C CNN
-F 3 "" H 5950 7350 60  0000 C CNN
-	1    5950 7350
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR025
+L GND-RESCUE-beaglebone-can-r1 #PWR025
 U 1 1 55720020
 P 5650 7750
 F 0 "#PWR025" H 5650 7750 30  0001 C CNN
@@ -1152,4 +1119,37 @@ Wire Wire Line
 	2500 4950 2500 4850
 Wire Wire Line
 	1900 4950 1800 4950
+$Comp
+L LED D3
+U 1 1 5611DE25
+P 5950 7350
+F 0 "D3" H 5950 7450 50  0000 C CNN
+F 1 "LED" H 5950 7250 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5950 7350 60  0001 C CNN
+F 3 "" H 5950 7350 60  0000 C CNN
+	1    5950 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 5611DF81
+P 5650 7350
+F 0 "D2" H 5650 7450 50  0000 C CNN
+F 1 "LED" H 5650 7250 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5650 7350 60  0001 C CNN
+F 3 "" H 5650 7350 60  0000 C CNN
+	1    5650 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 5611E0AE
+P 5350 7350
+F 0 "D1" H 5350 7450 50  0000 C CNN
+F 1 "LED" H 5350 7250 50  0000 C CNN
+F 2 "LEDs:LED-0603" H 5350 7350 60  0001 C CNN
+F 3 "" H 5350 7350 60  0000 C CNN
+	1    5350 7350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
